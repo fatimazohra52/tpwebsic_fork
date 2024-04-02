@@ -14,6 +14,7 @@ import Kader from "./pages/Kader";
 import DashboardA from "./pages/admin/DashboardA";
 import Profil from "./pages/admin/Profil";
 import UserProfileEdit from "./pages/admin/UserProfileEdit";
+import ProduitFormulaire from "./pages/Gestionnaire/ProduitFormulaire"
 // import { lazy } from "react";
 // const Home = lazy(() => import("./pages/Home.jsx"));
 // const About = lazy(() => import("./pages/About.jsx"));
@@ -32,7 +33,7 @@ function App() {
           <Route path="/DashboardA" element={<DashboardA />} />
           <Route path="/Profil" element={<Profil />} />
           <Route path="/UserProfileEdit" element={<UserProfileEdit />} />
-
+          <Route path="/ProduitFormulaire" element={<ProduitFormulaire/> } />
         </Routes>
       </ChakraProvider>
     </Router>
